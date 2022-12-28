@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@100&family=MuseoModerno&display=swap'); 
+
+body {
+    background-color: #B6FFFF;
+    width: 30%;
+    text-align: justify;
+
+    
+}
+
+h1, article h3 {
+    font-family: 'MuseoModerno', sans-serif;
+    color:blue;
+}
+
+h1 {
+    margin-bottom: 0px;
+
+}
+
+
+
+header h2 {
+    color:blue;
+    margin-top: 0%;
+}
+
+section p, ul {
+    color: #2F2C79;
+    font-weight: bold;
+    font-family: 'Asap', serif;
+}

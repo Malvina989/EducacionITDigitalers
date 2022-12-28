@@ -1,0 +1,193 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700&display=swap');
+
+body {
+    font: 400 24px 'Roboto', sans-serif;
+    background-color: #0ABDA0;
+    margin: 5%;
+    text-align: justify;
+    color: white;
+    box-sizing: content-box;
+
+}
+
+/* Aplico flex para organizar img redes sociales  */
+#redSocial{
+    display: flex;
+    justify-content: center;
+}
+
+/* Defino ancho imagenes redes sociales */
+.redes {
+    width: 40%;
+}
+
+/* Flex a barra navegación */
+nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #80ADD7;
+}
+
+/* Flex a servicios */
+#servicio {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+/* Ancho de imagen de sección servicios */
+#imagenes {
+    width: 35%;
+}
+
+
+
+h3 {
+    background-color: #80ADD7;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+/* Resaltar socialmedia|creadoras de contenido con color amarillo */
+h3 span{
+    color: #FDEE2F;
+}
+
+header h1 {
+    font-size: 130px;
+    background-color: #FDEE2F;
+    height: 160px;
+    color: #FFFFFF; 
+    text-align: center;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h3 {
+    background-color: #80ADD7; 
+}
+
+footer {
+    background-color: #FDEE2F;
+    text-align: center;
+    font-size: 80%;
+}
+
+ol {
+    font-weight: 400;
+    list-style-position: inside;
+}
+
+/* FORMULARIO */
+form {
+    background-color: yellow;
+}
+/* Resalto en color rojo asteriscos de datos obligatorios en form */
+span {
+    color: red;
+}
+
+/* Darle comportamiento de bloque a los label y agregar margen */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    height: 40px;
+}
+
+input, textarea {
+    margin-left: 2%;
+    width: 90%;
+}
+
+button {
+    margin-left: 45%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    background-color:white;
+    padding: 1%;
+    border-color: black;
+}
+
+
+
+/* Resaltar último renglón de lista de servicios */
+#resalta {
+    background-color: yellow;
+    font-size: 50px;
+}
+
+/* Aplicar flex a main */
+.encolumnar1 {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    
+}
+
+a {
+    color: yellow;
+    text-decoration: none;
+}
+footer a {
+    color:black;
+}
+/* cambio de color de links cuando pasamos mouse encima */
+a:hover {
+    color:white;
+    font-size: 90%;
+    background-color: yellow;
+}
+
+/* Tamaño imagen principal */
+#imagen {
+    width: 25%;
+    height: 40%;
+    margin-right: 5px;
+}
+
+
+/* Cambios en un breakpoint de 768px o menos */
+@media screen and (max-width: 768px){
+    body {
+        font: 400 18px 'Roboto', sans-serif;
+        background-color: #0ABDA0;
+        margin: 5%;
+        text-align: justify;
+        color: white;
+        box-sizing: content-box;
+
+}
+    header h1 {
+        height: 100px;
+        font-size: 45px;
+    }
+    nav {
+        background-color: #80ADD7;
+        display: block;
+        justify-content:flex-end;
+    }
+    #imagenes {
+        width: 100%;
+        
+    }
+    #servicio  {
+        display: block;
+    }
+    .encolumnar1 {
+        display:block
+        
+    }
+    #imagen {
+        width: 100%;
+    }
+    #resalta {
+        font-size: 30px;
+    }
+}
+
